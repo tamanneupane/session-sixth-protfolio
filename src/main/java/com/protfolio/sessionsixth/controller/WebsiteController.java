@@ -39,7 +39,7 @@ public class WebsiteController {
 
         List<MyService> myServiceList = apiService.getAllServices();
 
-        //Some other changes done
+        //Some other changes done and spelling mistake fixed
 
         model.addAttribute("personalInfo", personalInfo);
         model.addAttribute("myServices", myServiceList);
