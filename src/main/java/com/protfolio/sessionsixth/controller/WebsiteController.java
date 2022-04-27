@@ -39,7 +39,7 @@ public class WebsiteController {
 
         List<MyService> myServiceList = apiService.getAllServices();
 
-        //Some changes done
+        //Some other changes done
 
         model.addAttribute("personalInfo", personalInfo);
         model.addAttribute("myServices", myServiceList);
